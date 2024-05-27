@@ -1,0 +1,180 @@
+nav{
+    position: fixed;
+}
+.navbar-nav{
+    margin-left: 100px;
+   
+}
+.nav-item i{
+    
+    color: black;
+    font-size: 20px;
+    margin-top: 11px;
+}
+.nav-item a{
+    margin-left: 60px;
+}
+.nav-link:hover{
+    color: rgb(2, 11, 110) !important;
+}
+.container-fluid  i:hover{
+    color: rgb(3, 12, 109) !important;
+}
+
+.background-clip{
+position: relative;
+right: 0;
+bottom: 0;
+z-index: -1;
+}
+@media (max-width:1000px) {
+    .background-clip{
+       padding: 100px 50px;
+    }
+}
+@media (max-width:600px) {
+    .background-clip{
+       padding: 125px 30px;
+    }
+}
+.background-clip{
+    position: relative;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: -1;
+}
+.container{
+    margin-top: 100px;
+}
+
+.card-body{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.card-text{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#cardbox{
+    align-items: center;
+    text-align: center;
+    border: 0px white;
+    height: 500px;
+    margin-bottom: 100px;
+    transition: 1s ease;
+    box-shadow:  0px 1px 0px 0px rgb(0, 0, 0);
+    
+}
+.card img{
+    height: 250px;
+}
+
+#cardbox:hover{
+    background-color: rgb(204, 251, 251);
+    height: 400px;
+}
+
+.btn{
+    margin-top: 30px;
+    width:8rem ;
+    transition: 1s ease;
+}
+
+.card-body a:hover{
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+    width:7rem ;
+    border: 0px;
+    transform: scale(1.1);
+}
+
+
+footer{
+margin-top: 100px;
+
+}
+.bt2 button{
+    margin-left: 35px;
+    font-size:20px ;
+    width: 270px;
+    padding: 20px;
+    transition: 1s ease;
+    
+}
+.bt2 button i{
+    margin-left: 10px;
+    transition: 1s ease;
+}
+.bt2 button:hover{
+    background-color: green;
+    width: 350px;
+    
+}
+.bt2 button i:hover{
+    margin-left: 60px;
+    
+}
+h4:hover{
+    color: antiquewhite;
+}
+p a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+p:hover,#iid:hover{
+    text-decoration: underline !important;
+    color: antiquewhite !important;
+}
+h6{
+    text-align: center;
+    align-items: center;
+}
+h6:hover{
+    color: antiquewhite !important;
+}
+
+
+
+/* contact page */
+
+.bg-breadcrumb{
+    color: black !important;
+    background-image: url(images/sport-main.jpg);
+    background-size: cover;
+    background-position: 100%;
+    
+}
+
+/* contact page */
+
+
+
+
+/* card page */
+.bt3 button{
+    
+    font-size:20px ;
+    width: 350px;
+    padding: 20px;
+    transition: 1s ease;
+    
+}
+.bt3 button i{
+    margin-left: 10px;
+    transition: 1s ease;
+}
+.bt3 button:hover{
+    background-color: green;
+    width: 400px;
+    
+}
+.bt3 button i:hover{
+    margin-left: 60px;
+    
+}
